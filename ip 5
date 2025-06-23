@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AdVibe Agency</title>
+</head>
+<body style="font-family:sans-serif; background:#fefbd8; margin:0;">
+
+  <div style="background:#ff5733; color:white; padding:20px; text-align:center;">
+    <h1>AdVibe Agency</h1>
+    <p>Creative Ads That Catch Eyes!</p>
+  </div>
+
+  <div style="padding:30px; text-align:center;">
+    <h2 style="color:#4caf50;">Our Services</h2>
+    <p style="color:#333;">Digital Marketing | Branding | Video Ads</p>
+  </div>
+
+  <div style="background:#add8e6; padding:20px; text-align:center;">
+    <h3>Contact Us</h3>
+    <p>Email: contact@advibe.com</p>
+  </div>
+
+</body>
+</html>
