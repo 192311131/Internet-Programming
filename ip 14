@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+</head>
+<body>
+  <h2>Blog Posts</h2>
+  <div id="posts"></div>
+  <button onclick="loadMorePosts()">Load More Posts</button>
+
+  <script>
+    let page = 1;
+
+    function loadMorePosts() {
+      const xhr = new XMLHttpRequest();
+      xhr.open('GET', `https://api.example.com/posts?page=${page}`, true); // Replace with real API
+
+      xhr.onload = function() {
+        if (xhr.status === 200) {
+          const data = JSON.parse(xhr.responseText);
+          const postsDiv = document.getElementById('posts');
+
+          if (data.length === 0) {
+            postsDiv.innerHTML += "<p>No more posts.</p>";
+            return;
+          }
+
+          data.forEach(post => {
+            postsDiv.innerHTML += `<h3>${post.title}</h3><p>${post.content}</p>`;
+          });
+
+          page++;
+        } else {
+          alert("Error loading posts.");
+        }
+      };
+
+      xhr.onerror = function() {
+        alert("Network error.");
+      };
+
+      xhr.send();
+    }
+  </script>
+</body>
+</html>
