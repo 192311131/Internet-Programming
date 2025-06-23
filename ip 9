@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Methods</title>
+  <style>
+    .hex-color {
+      color: #ff5733; /* Using Hex code */
+    }
+    .rgb-color {
+      background-color: rgb(173, 216, 230); /* Using RGB */
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="color: blue;">This is a color name (blue)</h2>
+
+  <p class="hex-color">This text uses a Hex color (#ff5733)</p>
+
+  <div class="rgb-color">
+    This box uses RGB color (light blue)
+  </div>
+
+</body>
+</html>
