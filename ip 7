@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GoBus Reservation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f8e9;
+    }
+    header {
+      background-color: #e53935;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .section {
+      text-align: center;
+      padding: 30px;
+    }
+    .booking {
+      background-color: #4fc3f7;
+    }
+    .contact {
+      background-color: #aed581;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>GoBus Reservation</h1>
+    <p>Book Your Journey with Ease</p>
+  </header>
+
+  <div class="section booking">
+    <h2>Book a Bus</h2>
+    <p>Plan your trip across cities comfortably</p>
+  </div>
+
+  <div class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: help@gobus.com | Phone: 123-456-7890</p>
+  </div>
+
+</body>
+</html>
