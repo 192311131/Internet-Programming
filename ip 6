@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EduBright Institute</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #e0f7fa;
+    }
+    header {
+      background-color: #00796b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .section {
+      text-align: center;
+      padding: 30px;
+    }
+    .courses {
+      background-color: #ffcc80;
+    }
+    .contact {
+      background-color: #81d4fa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>EduBright Institute</h1>
+    <p>Empowering Education for a Brighter Future</p>
+  </header>
+
+  <div class="section courses">
+    <h2>Our Courses</h2>
+    <p>Science | Commerce | Arts | Coding</p>
+  </div>
+
+  <div class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@edubright.com</p>
+  </div>
+
+</body>
+</html>
